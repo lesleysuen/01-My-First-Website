@@ -1,0 +1,129 @@
+/*html { margin: 0 auto; }
+html { margin: 0 auto; width: 1040px; }
+html { clear: both; }*/
+
+body {
+	font-family: helvetica, arial, sans-serif; 
+	color: grey;
+	text-decoration: none; 
+}
+
+header {
+    width: 100%;
+   /* background: url("../img/header-bg.png");*/
+   	background-color: #fff;
+    height: 50px;
+    position: fixed;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px; 
+    text-decoration: none; 
+}
+ 
+#nav li { 
+	/*width: 410px; */
+	float: left; 
+	/*margin-top: 20px;*/ 
+	margin: 0px 40px;
+	text-align: center; 
+	padding: 0px;
+	display: inline; 
+	font-family: helvetica, arial, sans-serif; 
+	font-weight: bold;
+	list-style: none;
+    display: block;
+    text-decoration: none; 
+}
+
+#nav a {
+	font-weight: normal;
+	font-size: 12px;
+	color: grey;
+	text-decoration: none; 
+}
+
+#logo {
+  /* size: 50px;*/
+/*   width: 50px;*/
+   float: left;
+   padding: 0px;
+   border: 0px solid #ccc;
+   margin: 10px 30px 0  ;
+} 
+
+/*#slide1 { width: 100%; }*/
+#slide1 h3 {
+    background:url('../images/slide1.jpg') 10% 0 no-repeat scroll;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal; 
+    height: 400px;
+    margin: px;
+    padding: 200px 400px 0 400px;
+    background-size: cover;
+    text-align: right;
+
+
+}
+
+#slide2{
+    background:url('../images/slide2.jpg') 20% 0 no-repeat scroll;
+    background-color: #fff;
+    color: #333333;
+/*    height: 600px;*/
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+
+#slide2 ul {
+	list-style: none; 
+	color: #fff;
+	line-height: 2; 
+
+}
+ 
+#slide3{
+    background: url(../images/slide3.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    padding: 170px 40px 0 40px;
+    background-size: cover;
+    font-size: 40px;
+    font-weight: normal; 
+}
+ 
+#slide4{
+    background: url(../images/slide4.png) 50% 0 no-repeat fixed;
+    background-color: #fff;
+    color: #333333;
+    font-size: 40px;
+    height: 600px;
+    border: 300px;
+    padding: 20px 300px;
+    background-size: cover;
+    text-align: center; 
+}
+ 
+#slide5{
+	background: url(../images/kwuntongpromenade.jpg) 50% 0 no-repeat fixed;
+    height: 600px;
+    margin: 0 auto;
+    padding: 30px 60px;
+    color: #fff;
+    background-color: #000;
+    background-size: cover;
+}
+
+#slide5 h5 ul {
+	text-align: left;
+	font-size: 10px;
+	text-decoration: none; 
+
+}
+
+iframe {
+	float: right;
+	padding-left: 30px;
+	margin-top: 0px
+}
